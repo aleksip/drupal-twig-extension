@@ -1,0 +1,29 @@
+{
+    "name": "aleksip/drupal-twig-extension",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.0.8",
+        "drupal/core-render": "^8.8",
+        "drupal/core-utility": "^8.8"
+    },
+    "require-dev": {
+        "twig/twig": "^1.38.2"
+    },
+    "authors": [
+        {
+            "name": "Aleksi Peebles",
+            "email": "aleksi@iki.fi"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Drupal\\Component\\DrupalTwigExtension\\": "src/",
+            "Drupal\\Core\\Template\\Attribute": "src/",
+            "Drupal\\Core\\Template\\AttributeArray": "src/",
+            "Drupal\\Core\\Template\\AttributeBoolean": "src/",
+            "Drupal\\Core\\Template\\AttributeString": "src/",
+            "Drupal\\Core\\Template\\AttributeValueBase": "src/",
+            "Drupal\\Core\\Url": "src/"
+        }
+    }
+}
